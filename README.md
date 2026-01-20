@@ -3,7 +3,7 @@
 
 
 🌍 聚焦，实时获取全球热点新闻，突破信息茧房
-# 🌐 newshot — 全球热点新闻智能分析
+# 🌐 NewShot — 全球热点新闻智能分析
 
 ## 🚀 项目愿景
 
@@ -14,7 +14,7 @@ newshot 不仅仅是一个新闻聚合工具——它是一个面向未来的全
 ### 🔍 智能新闻抓取
 - **全球覆盖**：实时抓取 1000+ 权威新闻源，涵盖多语言与多地区
 - **智能去重**：基于语义相似度的聚类与去重，避免信息过载
-- **优先级调度**：自适应抓取频率，热点新闻秒级更新newshot · 实时全球新闻智能洞察平台
+- **优先级调度**：自适应抓取频率，热点新闻秒级更新NewShot · 实时全球新闻智能洞察平台
 
 > 在信息洪流中精准捕捉价值——我们为你构建下一代新闻分析引擎
 
@@ -56,8 +56,6 @@ CNBC
 VOA
 NHK
 JapanTimes
-
-
 ## 📄 许可证
 
 本项目采用 **Apache License 2.0** - 查看 [LICENSE](LICENSE) 文件了解详情。
@@ -82,7 +80,7 @@ JapanTimes
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=newshot-/newshot-&type=date&legend=top-left)](https://www.star-history.com/#newshot-/newshot-&type=date&legend=top-left)
+[![Star History Chart](https://api.star-history.com/svg?repos=newshot-/NewShot-&type=date&legend=top-left)](https://www.star-history.com/#newshot-/newshot-&type=date&legend=top-left)
 
 ---
 
