@@ -35,6 +35,27 @@ newshot 不仅仅是一个新闻聚合工具——它是一个面向未来的全
 ## ⭐newshot 的目标是：
 
 🤖自动从全球权威新闻源抓取新闻 → 分析 → 分类 → 评分 → 推送→ 并输出美观、可扩展的 UI 与日志
+🌐 支持的新闻源
+Reuters
+AP News
+BBC中文
+Al Jazeera
+Guardian
+DW中文
+France24
+NHK中文
+CNA
+ABC News
+CBC
+新华
+人民网
+环球网
+中新网
+澎湃
+CNBC
+VOA
+NHK
+JapanTimes
 
 
 ## 📄 许可证
