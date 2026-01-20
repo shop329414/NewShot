@@ -51,7 +51,9 @@ newshot 不仅仅是一个新闻聚合工具——它是一个面向未来的全
 
 ## 🌟 Star 历史
 
-[![Star History Chart](https://api.star-history.com/svg?repos=newshot-ai/newshot&type=Date)](https://star-history.com/#newshot-ai/newshot&Date)
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=newshot-/newshot-&type=date&legend=top-left)](https://www.star-history.com/#newshot-/newshot-&type=date&legend=top-left)
 
 ---
 
