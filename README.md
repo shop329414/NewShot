@@ -74,6 +74,40 @@ JapanTimes
 
 本项目采用 **Apache License 2.0** - 查看 [LICENSE](LICENSE) 文件了解详情。
 
+##项目架构图
+
+flowchart TD
+    subgraph RunningEnv[运行环境]
+        QL[青龙面板<br/>定时任务调度]
+        NodeJS[Node.js 运行时]
+        Libs[nobjs24 环境库<br/>依赖包]
+    end
+
+    QL -- “定时触发” --> Script[NewShot 主脚本]
+    Script -- “加载并执行” --> NodeJS
+    NodeJS -- “依赖” --> Libs
+
+    subgraph ScriptLogic[脚本核心逻辑]
+        Direction1[配置加载]
+        Direction2[新闻源列表]
+        Direction3[穿盾请求模块]
+        Direction4[数据解析]
+        Direction5[结果处理]
+    end
+
+    Script -- “包含” --> ScriptLogic
+
+    Direction2 -- “遍历” --> Direction3
+    Direction3 -- “HTTP请求<br/>绕过反爬虫” --> External[目标新闻网站]
+    External -- “返回网页/数据” --> Direction4
+    Direction4 -- “提取/清洗” --> Direction5
+    Direction5 -- “输出” --> Result[抓取结果]
+    
+    Result -- “形式可能是” --> Log[面板日志]
+    Result -- “形式可能是” --> File[本地文件]
+    Result -- “形式可能是” --> Push[推送通知]
+
+
 ## 📞 支持与联系
 
 - **文档**: [目前暂无，项目持续优化中...]
