@@ -90,8 +90,9 @@ JapanTimes
 3. **改进文档**：帮助我们完善文档
 4. **分享用例**：告诉我们您如何
 
-## 🌟 Star 历史
-[![](https://api.star-history.com/svg?repos=shop329414/NewShot&type=date&legend=top-left)](https://www.star-history.com/#shop329414/NewShot&type=date&legend=top-left)
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=shop329414/NewShot&type=date&legend=top-left)](https://www.star-history.com/#shop329414/NewShot&type=date&legend=top-left)
 
 ---
 
