@@ -75,7 +75,7 @@ JapanTimes
 本项目采用 **Apache License 2.0** - 查看 [LICENSE](LICENSE) 文件了解详情。
 
 ##项目架构图
-
+基于 NewShot 构建分布式 AI Autonomous Operations Framework，融合 Telegram Agent、异步协同调度、多节点网络测绘与 Redis 状态聚合机制，实现跨区域基础设施的实时自治巡检、异常推理与智能
 
 ## 📞 支持与联系
 
